@@ -6,9 +6,10 @@ This feature allows you to submit files, emails, Teams messages, and URLs to Mic
 
 1. Go to the [Microsoft Defender portal](https://security.microsoft.com).
 2. Select **Actions & Submissions** on the left-hand panel.
-3. Select **Submissions**. You will see tabs for Emails, Teams Messages, Email Attachments, URLs, Files, and User Reported. 
+3. Select **Submissions**. You will see tabs for Emails, Teams Messages, Email Attachments, URLs, Files, and User Reported.
 4. User Reported shows all user-reported submissions, while the rest are for admin submissions.
 5. Submissions help Microsoft to improve their detection policies.
+![Submissions page](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/Submissions/MDE%20onboard%2047.png)
 
 ### To Submit a File:
 1. Select **Files** or **File Hash** depending on your preference.
@@ -27,6 +28,7 @@ This feature allows you to submit files, emails, Teams messages, and URLs to Mic
 10. Click on **Done**.
 11. Refresh the page. You will see the submission name, submission ID, submitted by, date submitted, and reason for submitting.
 12. When you click on the submission, you can add this file as an indicator or go hunt.
+![Submissions File](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/Submissions/MDE%20onboard%2048.png)
 
 ## Submitting Emails
 
@@ -46,6 +48,7 @@ This feature allows you to submit files, emails, Teams messages, and URLs to Mic
    - **It appears suspicious**.
    - **I've confirmed it's a threat** (you will have to select whether it's spam, phish, or malware).
 5. Click on **Next** and **Submit**.
+![Submissions email](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/Submissions/MDE%20onboard%2049.png) 
 
 ## Submitting Teams Messages
 
@@ -53,11 +56,12 @@ This feature allows you to submit files, emails, Teams messages, and URLs to Mic
 2. A user-reported Teams message will come under **User Reported**.
 3. Select the user-reported message and click on **Submit to Microsoft for analysis**.
 4. From there, you can report it as phishing or malware.
+![Submissions teams message](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/Submissions/MDE%20onboard%2050.png)
 
 ## Submitting Email Attachments
 
 The submission form is similar to email submissions.
-
+![Submissions email attachments](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/Submissions/MDE%20onboard%2051.png) 
 ## Submitting URLs
 
 1. Click on the **URL** tab.
@@ -73,10 +77,15 @@ The submission form is similar to email submissions.
    - **It appears clean**.
    - **It appears suspicious**.
    - **I've confirmed it's a threat** (you will have to specify whether it's phish or malware).
-
+![Submissions URL](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/Submissions/MDE%20onboard%2052.png)
+![Submissions URL](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/Submissions/MDE%20onboard%2053.png)
+![Submissions URL](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/Submissions/MDE%20onboard%2054.png)
+ 
 ## User Reported
 
 You can configure this so that users can use the phishing button in Outlook to submit suspicious emails to the Defender portal. The admin will select the submitted user report and click on **Submit to Microsoft for analysis**.
+
+![Submissions User Reported](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/Submissions/MDE%20onboard%2050.png)
 
 ## Submitting Files from Alert
 
@@ -87,16 +96,19 @@ You can configure this so that users can use the phishing button in Outlook to s
 5. Categorize this submission as **Malware**, **Unwanted Software**, or **Clean**.
 6. Choose the priority: **Low**, **Medium**, or **High**.
 7. Include the alert story. This will attach a JSON file that will help Microsoft experts further investigate your submission.
+![Submissions Files from Alert](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/Submissions/MDE%20onboard%2055.png)
 
 ## Submitting from Email & Collaboration
 
 1. Select **Review**.
 2. Select **Quarantined**.
+![Submissions from Email & collaboration](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/Submissions/MDE%20onboard%2056.png)
 
 ## Submitting a File for Malware Analysis
 
 You can also submit a file for malware analysis through the following URL: [Microsoft File Submission](https://www.microsoft.com/en-us/wdsi/filesubmission)
 
+![Submissions from the Microsoft link](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/Submissions/MDE%20onboard%2057.png)
 ---
 
 This should provide clear instructions for submitting various items in Microsoft Defender. If you need further adjustments, let me know! 😊
